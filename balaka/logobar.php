@@ -1,6 +1,6 @@
 
 <div id="logo">
-	<div class="w3-content w3-display-container">
+	
   <?php 
 $add_movie="SELECT * FROM movies";
 
@@ -9,14 +9,12 @@ $result=mysqli_query($con,$add_movie);
 
 if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
-        echo '<img class="mySlides" src="uploaded_images/' . $row['movie_img1'] . '" style="height: 500px;width:100%">';
+        echo '<a href = "details.php?movie_id='. $row['movie_id'] .'"><img class="mySlides" src="uploaded_images/' . $row['movie_img1'] . '" style="height: 500px;width:100%"></a>';
     }
 }
 
 ?>
 
-
-</div>
 </div>
 <script>
 
