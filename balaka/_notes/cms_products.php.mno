@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_cms_display_products" value="name:product_id;datatype:int,name:category_id;datatype:int,name:brand_id;datatype:int,name:date;datatype:timestamp,name:product_title;datatype:string,name:product_img1;datatype:string,name:product_img2;datatype:string,name:product_img3;datatype:string,name:product_price;datatype:int,name:product_desc;datatype:blob,name:product_keyword;datatype:string,name:status;datatype:blob" />
+	<infoitem key="UD_admin_users" value="name:admin_id;datatype:int,name:admin_name;datatype:string,name:admin_email;datatype:string,name:admin_password;datatype:string,name:timestamp;datatype:timestamp" />
+</info>

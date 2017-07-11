@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_delete_brand" value="name:brand_id;datatype:int,name:brand_name;datatype:string" />
+</info>

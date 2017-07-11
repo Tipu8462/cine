@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_add_pages" value="name:page_id;datatype:int,name:page_name;datatype:string,name:page_content;datatype:blob,name:page_keyword;datatype:blob,name:page_description;datatype:blob,name:time_stamp;datatype:timestamp" />
+	<infoitem key="UD_cms_pages" value="name:page_id;datatype:int,name:page_name;datatype:string,name:page_content;datatype:blob,name:page_keyword;datatype:blob,name:page_description;datatype:blob,name:time_stamp;datatype:timestamp" />
+	<infoitem key="UD_admin_users" value="name:admin_id;datatype:int,name:admin_name;datatype:string,name:admin_email;datatype:string,name:admin_password;datatype:string,name:timestamp;datatype:timestamp" />
+</info>

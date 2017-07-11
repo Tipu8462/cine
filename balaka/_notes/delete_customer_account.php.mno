@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_delete_user_account" value="name:customer_id;datatype:int,name:customer_name;datatype:string,name:customer_password;datatype:string,name:customer_email;datatype:string,name:customer_contact_no;datatype:string,name:customer_country;datatype:string,name:customer_city;datatype:string,name:customer_address;datatype:string,name:customer_image;datatype:string,name:ip_add;datatype:string,name:date;datatype:timestamp" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_order_approval" value="name:customer_id;datatype:int,name:invoice_no;datatype:string,name:product_id;datatype:int,name:qty;datatype:int,name:order_status;datatype:string" />
+</info>

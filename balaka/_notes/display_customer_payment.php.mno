@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_display_customer_payment" value="name:payment_id;datatype:int,name:order_id;datatype:int,name:customer_id;datatype:int,name:invoice_no;datatype:blob,name:amount_paid;datatype:blob,name:source;datatype:blob,name:transition_id;datatype:blob,name:pass_code;datatype:blob,name:date;datatype:blob" />
+	<infoitem key="UD_admin_users" value="name:admin_id;datatype:int,name:admin_name;datatype:string,name:admin_email;datatype:string,name:admin_password;datatype:string,name:timestamp;datatype:timestamp" />
+</info>
