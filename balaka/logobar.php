@@ -1,8 +1,21 @@
+
 <div id="logo">
 	<div class="w3-content w3-display-container">
-  <img class="mySlides" src="../images/coffee.jpg" style="width:100%">
-  <img class="mySlides" src="../images/sound.jpg" style="width:100%">
-  <img class="mySlides" src="../images/workbench.jpg" style="width:100%">
+  <?php 
+$add_movie="SELECT * FROM movies";
+
+global $con;
+$result=mysqli_query($con,$add_movie);
+
+if ($result->num_rows > 0) {
+    while($row = $result->fetch_assoc()) {
+        echo '<img class="mySlides" src="uploaded_images/' . $row['movie_img1'] . '" style="height: 500px;width:100%">';
+    }
+}
+
+?>
+
+
 </div>
 </div>
 <script>

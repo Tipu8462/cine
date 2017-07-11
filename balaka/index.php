@@ -30,9 +30,7 @@
 <!----- News Bar End----->
 
 
-<!----- Logo Bar Start ----->
-<?php include("logobar.php");?>
-<!----- Logo Bar End ----->
+
 
 
 <!----- Menu Bar Start ----->
@@ -70,6 +68,12 @@
     </ul>
 </div>
 <!----- Menu Bar End ----->
+
+
+
+<!----- Logo Bar Start ----->
+<?php include("logobar.php");?>
+<!----- Logo Bar End ----->
 
 
 <!----- Slide Bar Start ----->
