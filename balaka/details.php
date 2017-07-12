@@ -39,7 +39,7 @@
 
 		<div id="section">
 			<div id="message_bar">
-				Welcome to You @ Balaka Cinema Hall >>
+				Welcome to You @ cinebd.com >>
 			</div>
     
 			<div id="data_bar">
@@ -79,9 +79,7 @@
 						</a>
 					</center>
 				</div>
-				<div id="left_data_bar">
-					
-
+				
 					<div>
 						<h4>Buy Tickets</h4>
 						<form id="buyticket" class="form" method="post" action="confirmation.php">
@@ -95,11 +93,13 @@
         style="width:250px; height:40px; background:#333; outline:0; border:#F03; text-align:center;
         color:#FFF; font-size:16px;">
 								<option value="Select Hall" selected="selected" disabled="disabled">Choose Date</option>
-								<option value="#">12/07/2017</option>
-								<option value="#">13/07/2017</option>
-								<option value="#">14/07/2017</option>
-								<option value="#">15/07/2017</option>
-
+								<option value="#">17/06/2017</option>
+								<option value="#">18/06/2017</option>
+								<option value="#">19/06/2017</option>
+								<option value="#">20/06/2017</option>
+								<option value="#">21/06/2017</option>
+								<option value="#">22/06/2017</option>
+								<option value="#">23/06/2017</option>
 							</select>
 						</td>
 					</tr>
@@ -112,10 +112,8 @@
         style="width:250px; height:40px; background:#333; outline:0; border:#F03; text-align:center;
         color:#FFF; font-size:16px;">
 								<option value="Select Hall" selected="selected" disabled="disabled">Choose Show Time</option>
-								<option value="#">09 AM</option>
-								<option value="#">01 PM</option>
-								<option value="#">05 PM</option>
-								<option value="#">08 PM</option>
+								<option value="#">10 AM</option>
+								<option value="#">02 PM</option>
 							</select>
 						</td>
 					</tr>
@@ -145,10 +143,6 @@
 								<option value="2">2</option>
 								<option value="3">3</option>
 								<option value="4">4</option>
-								<option value="1">5</option>
-								<option value="2">6</option>
-								<option value="3">7</option>
-								<option value="4">8</option>
 							</select>
 							<?php
 							if(isset($_POST['confrm'])){
