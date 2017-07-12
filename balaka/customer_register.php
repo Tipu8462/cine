@@ -86,7 +86,7 @@
 	}
 	else
 	{
-	echo "Welcome! Guest at cinebd.com";
+	echo "Welcome! Guest at Balaka Cinema Hall";
 	}
 	?>
     <i class="fa fa-shopping-cart"></i>:<?php get_items(); ?>

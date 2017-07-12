@@ -29,6 +29,9 @@
 
 
 
+<!----- Logo Bar Start ----->
+<?php include("logobar.php");?>
+<!----- Logo Bar End ----->
 
 <!----- Menu Bar Start ----->
 <div id="menu">
@@ -61,14 +64,6 @@
     </ul>
 </div>
 <!----- Menu Bar End ----->
-
-
-
-<!----- Logo Bar Start ----->
-<?php include("logobar.php");?>
-<!----- Logo Bar End ----->
-
-
 
 
 <!-----Section Start----->

@@ -10,7 +10,10 @@
 		<link rel="stylesheet" type="text/css" href="font-awesome-4.4.0/css/font-awesome.css">
 		<link rel="stylesheet" type="text/css" href="font-awesome-4.4.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="CSS Hover Effects/css/hover.css">
-		
+		<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+		<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+		<script type="text/javascript" src="engine1/jquery.js"></script>
+		<!-- End WOWSlider.com HEAD section -->
 	</head>
 	<body>
 
@@ -74,7 +77,7 @@
 						}
 						?>
 						<br>
-						<a href="display_now_movies.php">
+						<a href="/cine/home.php">
 							<input type="button" value="Back" id="btn">
 						</a>
 					</center>
@@ -99,7 +102,9 @@
 								<option value="#">13/07/2017</option>
 								<option value="#">14/07/2017</option>
 								<option value="#">15/07/2017</option>
-
+								<option value="#">16/07/2017</option>
+								<option value="#">17/07/2017</option>
+								<option value="#">18/07/2017</option>
 							</select>
 						</td>
 					</tr>
@@ -145,10 +150,6 @@
 								<option value="2">2</option>
 								<option value="3">3</option>
 								<option value="4">4</option>
-								<option value="1">5</option>
-								<option value="2">6</option>
-								<option value="3">7</option>
-								<option value="4">8</option>
 							</select>
 							<?php
 							if(isset($_POST['confrm'])){

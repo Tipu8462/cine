@@ -50,58 +50,12 @@
         <li style="background:#F00;" class="wobble-top">
         <a href="customer_register.php"><i class="fa fa-cloud-download"></i> SignUp</a></li>
         <li style="background:#C39;" class="wobble-top">
-        <a href="cart.php"><i class="fa fa-ticket"></i> Buy Ticket</a></li>
+        <a href="display_now_movies.php"><i class="fa fa-ticket"></i> Buy Ticket</a></li>
     </ul>
 </div>
 <!----- Menu Bar End ----->
 
 
-<!-----Section Start----->
-
-<div id="section" style="height:400px !important;">
-	<div id="message_bar" style="height:8% !important;">
-    <?php
-    if(isset($_SESSION['customer_email']))
-	{
-	echo "Welcome! ".$_SESSION['customer_email']." "."at Balaka Cinema Hall";
-	}
-	else
-	{
-	echo "Welcome! Guest at cinebd.com";
-	}
-	?>
-    <i class="fa fa-shopping-cart"></i>:<?php get_items(); ?>
-    <i class="fa fa-money"></i><?php get_price(); ?> 
-    <a href="cart.php"><input type="button" name="cart_btn" value="Go2Cart"></a>
-    <?php
-    if(!isset($_SESSION['customer_email']))
-	{
-	echo "<a href='checkout.php'><input type='button' value='Login'></a>";
-	}
-	else
-	{
-	echo "<a href='logout.php'><input type='button' value='Logout'></a>";
-	}
-	?>
-   
-    </div>
-    
-    <div id="data_bar" style="height:90% !important;">
-    <br>
-   
-        <?php
-        if(!isset($_SESSION['customer_email']))
-		{
-		include("customer_login.php");
-		}
-		else
-		{
-		include("payment_options.php");
-		}
-		?>
-       
-</div>
-</div>
 
 <!-----Section End----->
 

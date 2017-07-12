@@ -475,7 +475,7 @@ $run_get_default=mysqli_query($db,$get_customer);
 $record=mysqli_fetch_array($run_get_default);
 $customer_id=$record['customer_id'];
 
-if(!isset($_GET['order']))
+if(!isset($_GET['my_orders']))
 {
 if(!isset($_GET['edit_account']))
 {

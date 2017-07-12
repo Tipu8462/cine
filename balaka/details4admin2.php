@@ -92,10 +92,6 @@
 <!-----Section End----->
 
 
-<!-----Footer Start---->
-<?php include("footer.php");?>
-<!-----Footer End---->
-
 
 <!-----Copy Right Bar Start ---->
 <?php include("copyrightbar.php");?>

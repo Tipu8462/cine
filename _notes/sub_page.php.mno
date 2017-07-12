@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_display_sub_page" value="name:page_id;datatype:int,name:page_name;datatype:string,name:page_content;datatype:blob,name:page_keyword;datatype:blob,name:page_description;datatype:blob,name:time_stamp;datatype:timestamp" />
+</info>

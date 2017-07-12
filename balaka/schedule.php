@@ -56,7 +56,7 @@
 		{
 		
 		echo	"<li style='background:#FF0;' class='wobble-top'>
-        		<a href='checkout.php'><i class='fa fa-smile-o'></i> Login</a></li>";
+        		<a href='customer_login.php'><i class='fa fa-smile-o'></i> Login</a></li>";
 		
 		}
 		
@@ -70,17 +70,19 @@
 
 
 <!-----Section End----->
-
+<div id="show">
 <br>
-<h1 align="center">Under Construction till 
+<h2 align="center">Every day there are four time shows:<br>1. 09 AM<br> 2. 01 PM<br> 3. 05 PM<br> 4. 08 PM<br>
+<!------
 <?php
 $date = isset($_GET['date']) ? $_GET['date'] : date('Y-m-d');
 $prev_date = date('Y-m-d', strtotime($date .' -1 day'));
 $next_date = date('Y-m-d', strtotime($date .' +7 day'));
 echo "$next_date";
-?></h1>
+?></h2>
 <br>
-
+------->
+</div>
 <!-----Copy Right Bar Start ---->
 <?php include("copyrightbar.php");?>
 <!-----Copy Right Bar End ---->

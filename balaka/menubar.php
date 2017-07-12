@@ -26,7 +26,7 @@
 		{
 		
 		echo	"<li style='background:#FF0;' class='wobble-top'>
-        		<a href='checkout.php'><i class='fa fa-smile-o'></i> Login</a></li>";
+        		<a href='customer_login.php'><i class='fa fa-smile-o'></i> Login</a></li>";
 		
 		}
 		

@@ -30,7 +30,9 @@
 <!----- News Bar End----->
 
 
-
+<!----- Logo Bar Start ----->
+<?php include("logobar.php");?>
+<!----- Logo Bar End ----->
 
 
 <!----- Menu Bar Start ----->
@@ -50,30 +52,17 @@
     <li style="background:#9F0;" class="wobble-top">
         <a href="schedule.php"><i class="fa fa-ticket"></i> Schedule</a></li>
     <li style="background:#C39;" class="wobble-top" id="sub">
-        <a href="#"><i class="fa fa-film"></i> Login</a>
-		<ol>
-		<li style="background:#F3C;" class="wobble-top">
-        	<a href="customer_login.php"> User</a></li>
-		<li style="background:#F3C;" class="wobble-top">
-        	<a href="owner_login.php"> Owner</a></li>
-		<li style="background:#F3C;" class="wobble-top">
-        	<a href="admin_login.php"> Admin</a></li>
-		</ol>
+        <a href="customer_login.php"><i class="fa fa-film"></i> Login</a>
 	</li>    
 		<li style="background:#F00;" class="wobble-top">
         <a href="customer_register.php"><i class="fa fa-cloud-download"></i> SignUp</a></li>
         <li style="background:#C39;" class="wobble-top">
-        <a href="cart.php"><i class="fa fa-ticket"></i> Buy Ticket</a></li>
+        <a href="display_now_movies.php"><i class="fa fa-ticket"></i> Buy Ticket</a></li>
 		
     </ul>
 </div>
 <!----- Menu Bar End ----->
 
-
-
-<!----- Logo Bar Start ----->
-<?php include("logobar.php");?>
-<!----- Logo Bar End ----->
 
 
 <!----- Slide Bar Start ----->

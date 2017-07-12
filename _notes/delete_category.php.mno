@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_delete_category" value="name:category_id;datatype:int,name:category_name;datatype:string" />
+</info>
